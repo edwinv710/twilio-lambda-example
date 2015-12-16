@@ -208,8 +208,6 @@ It also provides with sample code to text if we correctly set-up the function.
 <a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/001LambdaBlueprint.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
-<br>
-
 After that, you will see all the nessesary options to configure our project. We are going to name our function routeSms. Please make sure that the runtime for the function is Node.js'
 
 <br>
