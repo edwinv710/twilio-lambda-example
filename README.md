@@ -295,8 +295,18 @@ Go to the root directory of your code and zip all the files. Please make sure th
 
 Navigate back to AWS and got to the main page of your lambda function. Click on the code tab. You should see a radio button to upload your zip. Gongratulations, you have created your own custom lambda function.
 
-### Twilio
+### Connect to Twilio
 
+Before we can use the application, we need to connect it to Twilio. Login to your Twilio account and navigate the list of all your phone numbers. Select the phone number you are using for this application. Scroll to the bottom of the page, and set the messaging request url to your endpoint. 
+
+The application is completed. Test your app by sending a text message to your Twilio phone number. That message should have been routed to your phone number.
+
+.
+
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/010Lambda.png" 
+alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
+
+.
 
 
 
