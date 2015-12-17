@@ -224,7 +224,7 @@ After selecting the blueprint, you will see options to configure our lambda func
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/002LambdaCreateCode.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/002LambdaCreateCode.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/002LambdaCreateCode.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -235,7 +235,7 @@ Please note: For simplicity sake, we are going to create an open endpoint. Keep 
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/003LambdaConfig" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/003LambdaConfig.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/003LambdaConfig.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -248,7 +248,7 @@ Go to the AWS dashboard and open API Gateway. On the left-hand side click resour
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/004Gateway.png"
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/004Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/004Gateway.png"
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -257,7 +257,7 @@ The first stage we are going to modify is the integration request. In the integr
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/005Gateway.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/005Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/005Gateway.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -268,7 +268,7 @@ Go back to the flowchart and click on integration response. Clicking on the row 
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/006Gateway.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/006Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/006Gateway.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -278,7 +278,7 @@ Finally, we need to tell our API to return the response as XML. Go back to the f
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/007Gateway.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/007Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/007Gateway.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -287,7 +287,7 @@ Our endpoint now returns XML. If you used the twilio blueprint you can see this 
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/008Lambda.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/008Lambda.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/008Lambda.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
@@ -309,7 +309,7 @@ The application is completed. Test by sending a text message to your Twilio phon
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/001LambdaBlueprint.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/010Lambda.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/010Lambda.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/010Lambda.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
