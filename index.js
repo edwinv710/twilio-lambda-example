@@ -19,8 +19,8 @@ exports.handler = function (event, context) {
           console.log(log_message);
           context.succeed(xml);
       } else {
-          console.log(error);
-          context.fail(xml);
+          console.log(error.message);
+          context.fail(error.message);
       }
   });
 
