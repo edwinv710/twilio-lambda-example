@@ -257,7 +257,7 @@ The first stage we are going to modify is the integration request. In the integr
 
 <br>
 
-<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/005Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_600/blog/twilio-lambda-article/005Gateway.png" 
+<a href="http://res.cloudinary.com/dqacnk0ea/image/upload/blog/twilio-lambda-article/005Gateway.png" target="_blank" align="center" style="text-align: center;display: block;margin-top: 50px;margin-bottom: 50px;"><img src="http://res.cloudinary.com/dqacnk0ea/image/upload/c_scale,w_601/blog/twilio-lambda-article/005Gateway.png" 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
