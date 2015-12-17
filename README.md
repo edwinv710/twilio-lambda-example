@@ -253,7 +253,7 @@ alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
 
-The first stage we are going to modify is the integration request. In the integration request, we are going to tell our API that twilio will send us the request with a `content-type` of `application/x-www-form-urlencoded`. We will also configure the incoming parameters to obey the camelcase format we specified in our code.
+The first stage we are going to modify is the integration request. In the integration request, we are going to add a `content-type` of `application/json`. We will also configure the incoming parameters to obey the camelcase format we specified in our code.
 
 <br>
 
@@ -283,7 +283,9 @@ alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
 
-Our endpoint now returns XML. If you used the twilio blueprint you can see this in action. Go to the main dashboard of your lambda function and click on the 'API Endpoint` tab. If you click on the link displayed, you should see correctly formatted XML in your browser. You may want to make note of the API endpoint link as we will make use of it soon.
+For the changes to take effect, we need to deploy them. Look for the deploy button on the top-lrft corner of the API Gateway dashboard. Our endpoint now returns XML. If you used the twilio blueprint you can see this in action. 
+
+Go to the main dashboard of your lambda function and click on the `API Endpoint` tab. If you click on the link displayed, you should see correctly formatted XML in your browser. You may want to make note of the API endpoint link as we will make use of it soon.
 
 <br>
 
@@ -291,7 +293,6 @@ Our endpoint now returns XML. If you used the twilio blueprint you can see this 
 alt="IMAGE ALT TEXT HERE" width="600" border="10" /></a>
 
 <br>
-
 
 ### Upload the code to AWS.
 
