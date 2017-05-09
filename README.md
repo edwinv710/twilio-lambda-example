@@ -1,6 +1,6 @@
 ## Tutorial: Use Twilio's REST API on AWS Lambda 
 
-[View the tutorial with images](http://edwinvelazquez.com/blog/2015/12/15/build_an_aws_endpoint.html)
+[View the tutorial with images](http://edwinv710.github.io/blog/2015/12/15/build_an_aws_endpoint.html)
 
 ### Objectives
 
